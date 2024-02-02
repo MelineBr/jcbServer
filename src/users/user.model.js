@@ -1,7 +1,12 @@
 const users = [
     {
-        username: 'exampleUser',
-        password: '$2b$10$qe.VU/.NPMCA1fapMn.yL.JbNZLgzfu29r4x3lY9kFqDZ8g4y0PI2', // Hashed password
+        nom : "joris",
+         prenom: 'joris', 
+         email:'', 
+         role, 
+         service, 
+         projets, 
+         motDePasse
     },
     // Add more users as needed
 ];
@@ -12,7 +17,10 @@ const userModel = {
     },
     getAllUsers() {
         return users.map((user => user.username));
-    }
+    },
+    getUserByEmail(mail){
+return 
+    },
 };
 
 module.exports = userModel;
